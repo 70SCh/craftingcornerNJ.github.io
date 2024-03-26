@@ -1,0 +1,149 @@
+/* Reset and Base Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(135deg, #23b9ff, #0084ff); /* Blue gradient background */
+    color: #131313; /* Text color */
+}
+
+/* Navbar Styles */
+/* CSS for the navbar */
+.navbar {
+    background-color: #131313;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__item {
+    height: 80px;
+    margin-right: 20px; /* Adjust spacing between navbar items */
+}
+
+.navbar__links {
+    color:  #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar_logo {
+    padding: 10px 20px;
+    background: linear-gradient(135deg, rgb(0, 17, 71), #00ccff);
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/* Title Styles */
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Content Styles */
+.content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #131313;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+}
+
+/* Title Section Styles */
+.title-section {
+    background-color: #23b9ff; /* Blue background */
+    text-align: center;
+    padding: 50px 0; /* Adjust padding as needed */
+}
+
+/* Title Styles */
+.title {
+    font-size: 5rem; /* Larger font size */
+    color: #fff; /* Title color */
+}
+
+.additional-info-box {
+    background-color: rgba(0, 68, 131, 0.8);
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin-left: auto; /* Center the box horizontally */
+    margin-right: auto; /* Center the box horizontally */
+}
+
+.additional-info-box h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.additional-info-box p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
